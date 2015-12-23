@@ -6,6 +6,6 @@ lazy val swagger = project
   .aggregate(generated, lib)
   .settings(
     libraryDependencies ++= Seq(
-      "io.swagger" % "swagger-parser" % "1.0.6"
+      "io.swagger" % "swagger-parser" % "1.0.13"
     )
   )
